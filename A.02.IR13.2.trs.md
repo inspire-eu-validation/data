@@ -1,5 +1,5 @@
 
-# Resource title
+# Temporal Reference System
 
 **Purpose**	
 

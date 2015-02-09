@@ -1,17 +1,16 @@
 
-# Coordinate Reference System
+# Spatial Representation Type
 
 **Purpose**	
 
-Description of the coordinate reference system(s) used in the data set.
+The method used to spatially represent geographic information.
 
 **Test method**	
 
 
-
 **Reference(s)**	 
 
-* [IR](./README.md#IR), Art 13 - 1
+* [IR](./README.md#IR), Art 13 - 6
 
 **Test type:** Automated
 
@@ -23,4 +22,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                   |  XPath expression (relative to gmd:MD_Metadata)
 -----------------------------------------------| -------------------------------------------------------------------------
-crs <a name="crs"></a>   |
+CharEnc encoding <a name="char></a>          |

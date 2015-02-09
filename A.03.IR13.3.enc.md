@@ -1,5 +1,5 @@
 
-# Resource title
+# Encoding
 
 **Purpose**	
 

@@ -1,5 +1,5 @@
 
-# Resource title
+# Topological Consistency
 
 **Purpose**	
 

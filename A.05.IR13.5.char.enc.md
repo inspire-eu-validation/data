@@ -1,5 +1,5 @@
 
-# Resource title
+# Character Encoding
 
 **Purpose**	
 
