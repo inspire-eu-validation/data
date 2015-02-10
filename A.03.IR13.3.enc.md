@@ -12,7 +12,7 @@ The formats and versions of the distributions should be advertised in [distribut
 <gmd:distributionFormat>
   <gmd:MD_Format>
     <gmd:name>
-      <gco:CharacterString>GML</gco:CharacterString>
+      <gco:CharacterString>application/gml+xml</gco:CharacterString>
     </gmd:name>
     <gmd:version>
       <gco:CharacterString>3.2.1</gco:CharacterString>
