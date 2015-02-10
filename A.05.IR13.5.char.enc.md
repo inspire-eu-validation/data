@@ -8,7 +8,7 @@ This element is mandatory only if an encoding is used that is not based on UTF-8
 
 **Test method**	
 
-Grab the resource. Check the encoding. If not UTF-8, validate if the appropriate encoding is provided in [CharEnc](#CharEnc)
+Grab the resource. Check the encoding. If the resource is not encoded based on UTF-8, validate if the appropriate encoding is provided in [CharEnc](#CharEnc)
 
 **Reference(s)**	 
 
@@ -24,4 +24,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                   |  XPath expression (relative to gmd:MD_Metadata)
 -----------------------------------------------| -------------------------------------------------------------------------
-CharEnc encoding <a name="char></a>          |
+

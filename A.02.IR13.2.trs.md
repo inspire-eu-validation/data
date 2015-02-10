@@ -9,13 +9,19 @@ This element is mandatory only if the spatial data set contains temporal informa
 
 **Test method**	
 
+iso19108 (5.3.1) states: "the metadata associated with a data set that uses
+temporal reference systems other than the Gregorian calendar and UTC shall either provide citations to documents
+that describe those temporal reference systems, or include description of those temporal reference systems in the
+metadata" and "The reference to the temporal reference system can be introduced in the feature catalogue or the metadata associated with an application schema or dataset."
 
+This requirement needs further specification to become machine testable.
 
 **Reference(s)**	 
 
 * [IR](./README.md#IR), Art 13 - 2
+* ISO/DIS 19108 Geographic information — Temporal schema
 
-**Test type:** Automated
+**Test type:** Manual
 
 **Notes**
 
@@ -25,4 +31,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                   |  XPath expression (relative to gmd:MD_Metadata)
 -----------------------------------------------| -------------------------------------------------------------------------
-trs <a name="trs"></a>   |
+
