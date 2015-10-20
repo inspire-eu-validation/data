@@ -1,19 +1,19 @@
 
 # Character Encoding
 
-**Purpose**	
+**Purpose**
 
 The character encoding used in the dataset.
 This element is mandatory only if an encoding is used that is not based on UTF-8.
 
-**Test method**	
+**Test method**
 
 Grab the resource. Check the encoding. If the resource is not encoded based on UTF-8, validate if the appropriate encoding is provided in [CharEnc](#CharEnc)
 Not applicable to services
 
 **Reference(s)**	 
 
-* [IR](./README.md#IR), Art 13 - 5
+* [IR IOP](./README.md#ref_IR_IOP), Art 13 - 5
 
 **Test type:** Automated
 

@@ -1,13 +1,13 @@
 
 # Coordinate Reference System
 
-**Purpose**	
+**Purpose**
 
 Description of the coordinate reference system(s) used in the data set.
 
-**Test method**	
+**Test method**
 
-It is suggested the code attribute in [RS_Identifier](#rs) is inserted as qualified url, eg. 
+It is suggested the code attribute in [RS_Identifier](#rs) is inserted as qualified url, eg.
 
 ```
 <gmd:code>
@@ -17,12 +17,12 @@ It is suggested the code attribute in [RS_Identifier](#rs) is inserted as qualif
 
 Other attributes can be available in [RS_Identifier](#rs) like gmd:authority, gmd:codeSpace, gmd:version
 
-If the resource is available to download, the test can grab the file and validate the coordinate 
+If the resource is available to download, the test can grab the file and validate the coordinate
 reference system against the advertised system.
 
 **Reference(s)**	 
 
-* [IR](./README.md#IR), Art 13 - 1
+* [IR IOP](./README.md#ref_IR_IOP), Art 13 - 1
 
 **Test type:** Automated
 
