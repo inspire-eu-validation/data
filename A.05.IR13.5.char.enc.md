@@ -3,17 +3,20 @@
 
 **Purpose**
 
-The character encoding used in the dataset.
-This element is mandatory only if an encoding is used that is not based on UTF-8.
+Verify that the identifier(s) of the character encoding(s) used in the data set have been created and published in the metadata for the data set. This element is mandatory only if an encoding is used that is not based on UTF-8.
+
+**Prerequisites**
+
+* [A.00.validate](A.00.validate.md)
 
 **Test method**
 
-Grab the resource. Check the encoding. If the resource is not encoded based on UTF-8, validate if the appropriate encoding is provided in [CharEnc](#CharEnc)
-Not applicable to services
+For each value of [Character Encoding](#CharEnc) in the data set metadata, test that the value is one of the [valid character encodings](#CharEnc).
 
 **Reference(s)**	 
 
-* [IR IOP](./README.md#ref_IR_IOP), Art 13 - 5
+* [IR IOP](./README.md#ref_IR_IOP), Art 13 (5)
+* [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), 8.2
 
 **Test type:** Automated
 
@@ -25,4 +28,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                   |  XPath expression (relative to gmd:MD_Metadata)
 -----------------------------------------------| -------------------------------------------------------------------------
-<a name="CharEnc"></a> CharEnc | gmd:identificationInfo\gmd:MD_DataIdentification\gmd:characterSet\gmd:MD_CharacterSetCode@codeListValue
+<a name="CharEnc"></a> Character Encoding | gmd:identificationInfo/gmd:MD_DataIdentification/gmd:characterSet/gmd:MD_CharacterSetCode/@codeListValue
+<a name="ValidCharEnc"></a> valid character encodings | doc(http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml)//gmx:ML_CodeListDictionary[@gml:id='MD_CharacterSetCode']//gml:identifier/text()

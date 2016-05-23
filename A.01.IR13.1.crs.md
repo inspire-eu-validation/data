@@ -1,32 +1,37 @@
-
 # Coordinate Reference System
 
 **Purpose**
 
-Description of the coordinate reference system(s) used in the data set.
+Verify that the identifier(s) of the coordinate reference system(s) used in the data set have been created and published in the metadata for the data set.
+
+**Prerequisites**
+
+* [A.00.validate](A.00.validate.md)
 
 **Test method**
 
-It is suggested the code attribute in [RS_Identifier](#rs) is inserted as qualified url, eg.
+Inspect the data set metadata whether metadata describing the coordinate reference system(s) have been created and published using the code property in [RS_Identifier](#rs).
+
+Verify that the value is a http URI and includes one of the values from table 2 in [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL).
+
+Example:
 
 ```
 <gmd:code>
-   <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4326</gco:CharacterString>
+   <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/4258</gco:CharacterString>
 </gmd:code>
 ```
 
-Other attributes can be available in [RS_Identifier](#rs) like gmd:authority, gmd:codeSpace, gmd:version
+**Reference(s)**
 
-If the resource is available to download, the test can grab the file and validate the coordinate
-reference system against the advertised system.
-
-**Reference(s)**	 
-
-* [IR IOP](./README.md#ref_IR_IOP), Art 13 - 1
+* [IR IOP](./README.md#ref_IR_IOP), Art 13 (1)
+* [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), 6.1.1.4 and 8.2
 
 **Test type:** Automated
 
 **Notes**
+
+Other attributes may be available in [RS_Identifier](#rs) like gmd:authority, gmd:codeSpace, gmd:version.
 
 **Contextual XPath references**
 
@@ -34,4 +39,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                   |  XPath expression (relative to gmd:MD_Metadata)
 -----------------------------------------------| -------------------------------------------------------------------------
-rs <a name="rs"></a>   | gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier
+rs <a name="rs"></a>   | gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier/gmd:code/gco:CharacterString

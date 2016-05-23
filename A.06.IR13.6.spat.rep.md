@@ -1,25 +1,23 @@
-
 # Spatial Representation Type
 
 **Purpose**
 
-The method used to spatially represent geographic information.
+Verify that the identifier(s) of the spatial representation type(s) used in the data set have been created, taken from the list of allowed values and published in the metadata for the data set.
+
+**Prerequisites**
+
+* [A.00.validate](A.00.validate.md)
 
 **Test method**
 
-Test if a spatialRepresentationType value is used from an appropriate codelist. The values of MD_SpatialRepresentationTypeCode in the scope of the INSPIRE Directive are: vector, grid or tin.
+Inspect the data set metadata whether metadata describing the spatial representation type(s) have been created and published in [spatialRepresentationType](#spatialRepresentationType).
 
-Grab the resource and check the spatial representation. Validate if it matches the advertised representation.
-
-    <gmd:spatialRepresentationType>
-      <gmd:MD_SpatialRepresentationTypeCode
-         codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml"
-         codeListValue="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#vector" />
-    </gmd:spatialRepresentationType>
+Verify that each value is one of the [valid values](#validvalues).
 
 **Reference(s)**	 
 
-* [IR IOP AMD](./README.md#ref_IR_IOP_AMD), Art 13 - 6
+* [IR IOP AMD](./README.md#ref_IR_IOP_AMD), Art 13 (6)
+* [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), 8.2
 
 **Test type:** Automated
 
@@ -31,4 +29,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                   |  XPath expression (relative to gmd:MD_Metadata)
 -----------------------------------------------| -------------------------------------------------------------------------
-Value | gmd:identificationInfo/gmd:MD_DataIdentification/gmd:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode@codeListValue
+<a name="spatialRepresentationType"></a> spatialRepresentationType | gmd:identificationInfo/gmd:MD_DataIdentification/gmd:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode/@codeListValue
+<a name="validvalues"></a> valid values | doc(http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml)//gmx:CodeListDictionary[@gml:id='MD_SpatialRepresentationTypeCode']//gml:identifier/text()
