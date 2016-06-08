@@ -21,12 +21,12 @@ This Conformance Class contains the following tests:
 | Identifier                                                        | Origin | Automated | Status   |
 | ----------------------------------------------------------------- | ------ | ---------- | -------- |
 | [A.00.validate](A.00.validate.md)  	                            | [TG DS TMPL](#ref_TG_DS_IMPL) | Yes | Ready for review  |
-| [A.01.IR13.1.crs](A.01.IR13.1.crs.md)                             | [IR IOP](#ref_IR_IOP)     |  Yes          | Ready for review    |
-| [A.02.IR13.2.trs](A.02.IR13.2.trs.md)                             | [IR IOP](#ref_IR_IOP)     |  No          | Ready for review    |  
-| [A.03.IR13.3.enc](A.03.IR13.3.enc.md)                             | [IR IOP](#ref_IR_IOP)     |  Yes          | Ready for review    |
-| [A.04.IR13.4.topo](A.04.IR13.4.topo.md)                           | [IR IOP](#ref_IR_IOP)     |  No          | Ready for review    |
-| [A.05.IR13.5.char.enc](A.05.IR13.5.char.enc.md)                   | [IR IOP](#ref_IR_IOP)     |  Yes          | Ready for review    |  
-| [A.06.IR13.6.spat.rep](A.06.IR13.6.spat.rep.md)                   | [IR IOP AMD](#ref_IR_IOP_AMD)  | Yes           | Ready for review    |  
+| [A.01.IR13.1.crs](A.01.IR13.1.crs.md)                             | [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  Yes          | Ready for review    |
+| [A.02.IR13.2.trs](A.02.IR13.2.trs.md)                             | [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  No          | Ready for review    |  
+| [A.03.IR13.3.enc](A.03.IR13.3.enc.md)                             | [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  Yes          | Ready for review    |
+| [A.04.IR13.4.topo](A.04.IR13.4.topo.md)                           | [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  No          | Ready for review    |
+| [A.05.IR13.5.char.enc](A.05.IR13.5.char.enc.md)                   | [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  Yes          | Ready for review    |  
+| [A.06.IR13.6.spat.rep](A.06.IR13.6.spat.rep.md)                   | [IR IOP AMD](#ref_IR_IOP_AMD), [TG DS TMPL](#ref_TG_DS_IMPL)  | Yes           | Ready for review    |  
 
 ## Open issues
 
