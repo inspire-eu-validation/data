@@ -12,7 +12,7 @@ Verify whether metadata about the topological consistency of the data set has be
 
 Inspect the spatial data set to determine whether it includes instances of types from the Generic Network Model and does not assure centreline topology (connectivity of centrelines) for the network.
 
-If this is the case, inspect the data set metadata whether metadata describing the topological consistency has been created and published in [TopologicalConsistency](#topo).
+If this is the case, inspect the data set metadata whether metadata describing the topological consistency has been created and published in [TopologicalConsistency](#topo) for the data quality measures specified for the theme(s) in the section "Logical Consistency – Topological consistency" in clause 7 of the Technical Guidance.
 
 **Reference(s)**	 
 
@@ -29,4 +29,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                   |  XPath expression (relative to gmd:MD_Metadata)
 -----------------------------------------------| -------------------------------------------------------------------------
-TopologicalConsistency <a name="topo></a>	| gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/DQ_TopologicalConsistency/result/DQ_QuantitativeResult/value
+TopologicalConsistency <a name="distributionFormat"></a>   | gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/DQ_TopologicalConsistency/result/DQ_QuantitativeResult/value
