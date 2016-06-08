@@ -16,9 +16,9 @@ If this is the case, inspect the data set metadata whether metadata describing t
 
 **Reference(s)**	 
 
-* [IR IOP](./README.md#ref_IR_IOP), Art 13 (2)
+* [IR IOP](./README.md#ref_IR_IOP), Art 11, 13 (2)
 * [ISO 19108](README.md#ref_ISO_19108), 5.3.1
-* [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), 6.1.2 and 8.2
+* [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), TG requirements 4 and 5 
 
 **Test type:** Manual
 

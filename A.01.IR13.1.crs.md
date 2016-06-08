@@ -25,7 +25,7 @@ Example:
 **Reference(s)**
 
 * [IR IOP](./README.md#ref_IR_IOP), Art 13 (1)
-* [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), 6.1.1.4 and 8.2
+* [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), TG requirements 2, 4 and 5 
 
 **Test type:** Automated
 

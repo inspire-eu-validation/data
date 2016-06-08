@@ -17,7 +17,7 @@ Verify that each value is one of the [valid values](#validvalues).
 **Reference(s)**	 
 
 * [IR IOP AMD](./README.md#ref_IR_IOP_AMD), Art 13 (6)
-* [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), 8.2
+* [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), TG requirements 4 and 5 
 
 **Test type:** Automated
 
