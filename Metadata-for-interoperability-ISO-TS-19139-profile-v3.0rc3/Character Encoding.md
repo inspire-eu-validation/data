@@ -7,7 +7,7 @@ Verify that the identifier(s) of the character encoding(s) used in the data set 
 
 **Prerequisites**
 
-* [A.00.validate](A.00.validate.md)
+* [Schema validation](Schema validation.md)
 
 **Test method**
 
@@ -15,7 +15,6 @@ For each value of [Character Encoding](#CharEnc) in the data set metadata, test 
 
 **Reference(s)**	 
 
-* [IR IOP](./README.md#ref_IR_IOP), Art 13 (5)
 * [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), TG requirements 4 and 5 
 
 **Test type:** Automated

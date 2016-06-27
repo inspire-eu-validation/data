@@ -6,7 +6,7 @@ Verify whether the temporal reference system(s) used in the data set have been c
 
 **Prerequisites**
 
-* [A.00.validate](A.00.validate.md)
+* [Schema validation](Schema validation.md)
 
 **Test method**
 
@@ -16,7 +16,6 @@ If this is the case, inspect the data set metadata whether metadata describing t
 
 **Reference(s)**	 
 
-* [IR IOP](./README.md#ref_IR_IOP), Art 11, 13 (2)
 * [ISO 19108](README.md#ref_ISO_19108), 5.3.1
 * [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), TG requirements 4 and 5 
 

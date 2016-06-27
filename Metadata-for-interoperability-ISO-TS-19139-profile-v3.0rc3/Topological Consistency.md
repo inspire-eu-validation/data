@@ -6,7 +6,7 @@ Verify whether metadata about the topological consistency of the data set has be
 
 **Prerequisites**
 
-* [A.00.validate](A.00.validate.md)
+* [Schema validation](Schema validation.md)
 
 **Test method**
 
@@ -16,7 +16,6 @@ If this is the case, inspect the data set metadata whether metadata describing t
 
 **Reference(s)**	 
 
-* [IR IOP](./README.md#ref_IR_IOP), Art 13 (4)
 * [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), TG requirements 4 and 5 
 
 **Test type:** Manual

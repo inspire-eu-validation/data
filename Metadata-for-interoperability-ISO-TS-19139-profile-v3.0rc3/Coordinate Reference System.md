@@ -6,7 +6,7 @@ Verify that the identifier(s) of the coordinate reference system(s) used in the 
 
 **Prerequisites**
 
-* [A.00.validate](A.00.validate.md)
+* [Schema validation](Schema validation.md)
 
 **Test method**
 
@@ -24,7 +24,6 @@ Example:
 
 **Reference(s)**
 
-* [IR IOP](./README.md#ref_IR_IOP), Art 13 (1)
 * [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), TG requirements 2, 4 and 5 
 
 **Test type:** Automated
