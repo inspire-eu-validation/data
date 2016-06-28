@@ -6,7 +6,7 @@ Verify that the identifier(s) of the coordinate reference system(s) used in the 
 
 **Prerequisites**
 
-* [Schema validation](Schema validation.md)
+* [Schema validation](schema-validation.md)
 
 **Test method**
 

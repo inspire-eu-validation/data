@@ -7,7 +7,7 @@ Verify that the identifier(s) of the character encoding(s) used in the data set 
 
 **Prerequisites**
 
-* [Schema validation](Schema validation.md)
+* [Schema validation](schema-validation.md)
 
 **Test method**
 

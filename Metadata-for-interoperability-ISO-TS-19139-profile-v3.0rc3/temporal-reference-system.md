@@ -6,7 +6,7 @@ Verify whether the temporal reference system(s) used in the data set have been c
 
 **Prerequisites**
 
-* [Schema validation](Schema validation.md)
+* [Schema validation](schema-validation.md)
 
 **Test method**
 

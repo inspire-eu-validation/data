@@ -20,13 +20,13 @@ This Conformance Class contains the following tests:
 
 | Identifier                                                        | Origin | Automated | Status   |
 | ----------------------------------------------------------------- | ------ | ---------- | -------- |
-| [Schema validation](Schema validation.md)                         | [TG DS TMPL](#ref_TG_DS_IMPL) | Yes | Ready for review  |
-| [Coordinate Reference System](Coordinate Reference System.md)     | [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  Yes          | Ready for review    |
-| [Temporal Reference System](Temporal Reference System.md)         | [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  No          | Ready for review    |  
-| [Encoding](Encoding.md)                           				| [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  Yes          | Ready for review    |
-| [Topological Consistency](Topological Consistency.md)             | [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  No          | Ready for review    |
-| [Character Encoding](Character Encoding.md)                   	| [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  Yes          | Ready for review    |  
-| [Spatial Representation Type](Spatial Representation Type.md)     | [IR IOP AMD](#ref_IR_IOP_AMD), [TG DS TMPL](#ref_TG_DS_IMPL)  | Yes           | Ready for review    |  
+| [Schema validation](schema-validation.md)                         | [TG DS TMPL](#ref_TG_DS_IMPL) | Yes | Ready for review  |
+| [Coordinate Reference System](coordinate-reference-system.md)     | [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  Yes          | Ready for review    |
+| [Temporal Reference System](temporal-reference-system.md)         | [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  No          | Ready for review    |  
+| [Encoding](encoding.md)                           				| [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  Yes          | Ready for review    |
+| [Topological Consistency](topological-consistency.md)             | [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  No          | Ready for review    |
+| [Character Encoding](character-encoding.md)                   	| [IR IOP](#ref_IR_IOP), [TG DS TMPL](#ref_TG_DS_IMPL)     |  Yes          | Ready for review    |  
+| [Spatial Representation Type](spatial-representation-type.md)     | [IR IOP AMD](#ref_IR_IOP_AMD), [TG DS TMPL](#ref_TG_DS_IMPL)  | Yes           | Ready for review    |  
 
 ## Open issues
 

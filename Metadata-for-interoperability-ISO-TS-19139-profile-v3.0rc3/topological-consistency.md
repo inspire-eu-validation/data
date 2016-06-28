@@ -6,7 +6,7 @@ Verify whether metadata about the topological consistency of the data set has be
 
 **Prerequisites**
 
-* [Schema validation](Schema validation.md)
+* [Schema validation](schema-validation.md)
 
 **Test method**
 

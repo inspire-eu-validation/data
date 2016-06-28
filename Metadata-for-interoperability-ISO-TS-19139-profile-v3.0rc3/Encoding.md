@@ -6,7 +6,7 @@ Verify that the encoding (i.e., the description of the computer language constru
 
 **Prerequisites**
 
-* [Schema validation](Schema validation.md)
+* [Schema validation](schema-validation.md)
 
 **Test method**
 
