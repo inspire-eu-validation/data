@@ -1,12 +1,8 @@
 # Temporal Reference System
 
-**Purpose**
-
-Verify whether the temporal reference system(s) used in the data set have been created and published in the metadata for the data set, if the spatial data set contains temporal information that does not refer to the default temporal reference system.
+**Purpose**: Verify whether the temporal reference system(s) used in the data set have been created and published in the metadata for the data set, if the spatial data set contains temporal information that does not refer to the default temporal reference system.
 
 **Prerequisites**
-
-* [Schema validation](schema-validation.md)
 
 **Test method**
 
@@ -16,16 +12,16 @@ If this is the case, inspect the data set metadata whether metadata describing t
 
 **Reference(s)**	 
 
-* [ISO 19108](README.md#ref_ISO_19108), 5.3.1
-* [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), TG requirements 4 and 5 
+* [ISO 19108](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/interoperability-metadata/README#ref_ISO_19108), 5.3.1
+* [TG_DS_TMPL](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/interoperability-metadata/README#ref_TG_DS_TMPL), TG requirements 4 and 5 
 
-**Test type:** Manual
+**Test type**: Manual
 
 **Notes**
 
-**Contextual XPath references**
+## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README.md#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/interoperability-metadata/README#namespaces).
 
 Abbreviation                                   |  XPath expression (relative to gmd:MD_Metadata)
 -----------------------------------------------| -------------------------------------------------------------------------

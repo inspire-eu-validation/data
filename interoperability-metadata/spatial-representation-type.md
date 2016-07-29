@@ -1,12 +1,8 @@
 # Spatial Representation Type
 
-**Purpose**
-
-Verify that the identifier(s) of the spatial representation type(s) used in the data set have been created, taken from the list of allowed values and published in the metadata for the data set.
+**Purpose**: Verify that the identifier(s) of the spatial representation type(s) used in the data set have been created, taken from the list of allowed values and published in the metadata for the data set.
 
 **Prerequisites**
-
-* [Schema validation](schema-validation.md)
 
 **Test method**
 
@@ -16,15 +12,15 @@ Verify that each value is one of the [valid values](#validvalues).
 
 **Reference(s)**	 
 
-* [TG_DS_TMPL](./README.md#ref_TG_DS_TMPL), TG requirements 4 and 5 
+* [TG_DS_TMPL](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/interoperability-metadata/README#ref_TG_DS_TMPL), TG requirements 4 and 5 
 
-**Test type:** Automated
+**Test type**: Automated
 
 **Notes**
 
-**Contextual XPath references**
+## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README.md#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/interoperability-metadata/README#namespaces).
 
 Abbreviation                                   |  XPath expression (relative to gmd:MD_Metadata)
 -----------------------------------------------| -------------------------------------------------------------------------
