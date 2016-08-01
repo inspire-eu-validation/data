@@ -1,42 +1,66 @@
-ats-interoperability-metadata
-=============================
+# Abstract Test Suite: INSPIRE Data Specification Template (DRAFT)
 
-Abstract Test Suite for additional metadata elements included in INSPIRE Implementing Rules on the Interoperability of Spatial Datasets and Services (Commission Regulation (EU) No 1089/2010) and in the Data Specifications Technical Guidelines for the Annex I-III spatial data themes.
+*NOTE: Rename repository from "ats-interoperability-metadata" to "data".*
 
-*Note*: This ATS is in Ready for review stage, none of the tests have an official INSPIRE MIG approval.
+The specification specifies the following conformance classes:
 
-## External document references
+| Conformance class | Standardization target |
+| ----------------- | ---------------------- |
+| [Metadata for interoperability](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/interoperability-metadata) | ISO 19115/19119 metadata record |
 
-| Abbreviation | Document name                       |
-| ------------ | ----------------------------------- |
-| IR IOP <a name="ref_IR_IOP"><a/> | [COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L:2010:323:FULL&from=EN)
-| IR IOP AMD <a name="ref_IR_IOP_AMD"></a> | [COMMISSION REGULATION (EU) No 1253/2013 of 21 October 2013 amending Regulation (EU) No 1089/2010 implementing Directive 2007/2/EC as regards interoperability of spatial data sets and services](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:331:0001:0267:EN:PDF)
-| TG DS TMPL <a name="ref_TG_DS_TMPL"></a> | [INSPIRE Data Specifications Template, version 3.0](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
-| ISO 19108 <a name="ref_ISO_19108"></a> | [ISO/DIS 19108 Geographic information - Temporal schema](http://www.iso.org/iso/catalogue_detail.htm?csnumber=26013)
+## Rules for HTTP requests
 
-## Tests
+The INSPIRE technical guidance documents are in general unspecific on the details of HTTP requests to access resources. The following rules apply to all HTTP requests unless a test case explicitly states deviations from these rules.
 
-This Conformance Class contains the following tests:
+### Use of HTTPS
 
-| Identifier                                                        | Origin | Mechanical | Status   |
-| ----------------------------------------------------------------- | ------ | ---------- | -------- |
-| [A.01.IR13.1.crs](A.01.IR13.1.crs.md)                             | [IR IOP](#ref_IR_IOP)     |  Yes          | Ready for review    |  
-| [A.02.IR13.2.trs](A.02.IR13.2.trs.md)                             | [IR IOP](#ref_IR_IOP)     |  No          | Ready for review    |  
-| [A.03.IR13.3.enc](A.03.IR13.3.enc.md)                             | [IR IOP](#ref_IR_IOP)     |  Partial          | Ready for review    |  
-| [A.04.IR13.4.topo](A.04.IR13.4.topo.md)                           | [IR IOP](#ref_IR_IOP)     |  Partial          | Ready for review    |  
-| [A.05.IR13.5.char.enc](A.05.IR13.5.char.enc.md)                   | [IR IOP](#ref_IR_IOP)     |  Yes          | Ready for review    |  
-| [A.06.IR13.6.spat.rep](A.06.IR13.6.spat.rep.md)                   | [IR IOP AMD](#ref_IR_IOP_AMD)  | Yes           | Ready for review    |  
+Where HTTP is mentioned as the protocol, HTTPS may be used, too. SSL certificates must be valid and issued by a trusted Certification Authority.
 
-## Open issues
+This also implies that where "HTTP URI" or "URL" is used, this includes URIs in the HTTPS scheme.
 
-* Test scope: Should the tests just check if the required metadata elements are correctly given, or that they also match the features of reported data sets?
-* These test cover recommendations, not requirements. These recommendations are listed in [TG DS TMPL](#ref_TG_DS_TMPL), section 8 "Dataset-level metadata", and thus included in each of the INSPIRE Data Specification documents.
+### HTTP methods
 
-## XML namespace prefixes <a name="namespaces"></a>
+If a HTTP request is a request to an INSPIRE network service that is an OGC Web Service only HTTP GET and/or HTTP POST may be used as only the requriements for these methods are specified. Which of the two methods must or can be used in general depends in the requirements stated in the OGC standard and the support for the methods stated in the Capabilities document of a service. Where the choice is constrained by a requirement in the technical guidance, this information is included in the test method description of the test case. If both GET and POST are allowed and supported the service, the executable test is free to choose one of the two.  
 
-The following prefixes are used to refer to the corresponding XML namespaces in all test descriptions:
+For requests to other resources that are accessed using a HTTP URI without payload, HTTP HEAD may be used, too, as HTTP 1.1 states that "the methods GET and HEAD MUST be supported by all general-purpose servers". "Other resources" are identified by the lack of query parameters "SERVICE" and "REQUEST" which are part of all OGC Web Service KVP GET requests.
 
-Prefix   | Namespace
--------- | -------------------------------------------------
-gmd      | http://www.isotc211.org/2005/gmd
-wfs      | http://www.opengis.net/wfs/2.0
+No conditional GET requests may be used to avoid the impact of HTTP caches. 
+
+### HTTP headers
+
+If a non-INSPIRE dependency (e.g. an OGC standard) specifies requirements on HTTP headers in requests or responses, these must be taken into account in the implementation of tests. This includes, for example, requirements on the content type.
+
+Unless explicitly noted in a test case, no additional HTTP headers should be sent as part of the request or expected as part of the response.  
+
+### HTTP status codes
+
+The expected status code for HTTP GET and POST responses is 200, the expected status code for HTTP HEAD responses is 200 and 204. All other status codes indicate a failure (unless a test case specifies different conditions).
+ 
+Notes:
+ 
+* In OGC Web Services the code 200 is often also used for service exceptions and tests may need to distinguish exceptions from successful completions of a request.
+* Redirects (status codes 301, 302, and 303) are in general not allowed as they are not supported by the OGC Web Service standards.
+
+### HTTP timeouts
+
+The timeout for HTTP requests in tests is 30 seconds (unless a test case specifies different conditions).
+
+### HTTP authentication
+
+Until an approved INSPIRE technical guidance for HTTP authentication mechanisms exists, this Abstract Test Suite will not support INSPIRE spatial data services that require HTTP authentication.
+
+I.e., testing of protected resources will require a local installation of the validator in order to connect to the protected service directly (bypassing the security gateway).
+
+### Typical assertions for HTTP requests
+
+Based on the rules specified above, the following assertions may typically be tested for a HTTP response. The first two apply to all responses, the others only in the case of specific requirements stated in the test case.
+
+1. Response is returned within the timeout limits
+2. Response has an expected HTTP status code
+3. Response has an expected media type in the content-type header
+4. Response content meets certain expectations
+
+For example, in the case of an XML response, typical types of expectations regarding the content are: 
+
+* the response is schema valid
+* the root element is an expected element (e.g. a Capabilties document) or not a forbidden element (e.g. an ows:ExceptionReport)   
