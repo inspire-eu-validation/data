@@ -1,7 +1,5 @@
 # Abstract Test Suite: INSPIRE Data Specification Template (DRAFT)
 
-*NOTE: Rename repository from "ats-interoperability-metadata" to "data".*
-
 The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
