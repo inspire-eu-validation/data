@@ -1,4 +1,4 @@
-# Abstract Test Suite: INSPIRE Data Specification Template (DRAFT)
+# Abstract Test Suite: INSPIRE Data Specification Template (DRAFT) 
 
 The specification specifies the following conformance classes:
 
