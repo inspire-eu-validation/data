@@ -1,4 +1,4 @@
-# Conformance class: Metadata for interoperability (DRAFT)
+# Conformance class: Metadata for interoperability
 
 This conformance class is part of the [Abstract Test Suite for the INSPIRE Data Specification Template](http://inspire.ec.europa.eu/id/ats/data/3.0rc3).
 
