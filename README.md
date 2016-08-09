@@ -4,6 +4,10 @@ The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
+| [Schemas](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/schemas) | INSPIRE spatial data set encoded in GML |
+| [Data consistency](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/data-consistency) | INSPIRE spatial data set |
+| [Information accessibility](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/information-accessibility) | INSPIRE spatial data set |
+| [Reference systems](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/reference-systems) | INSPIRE spatial data set |
 | [Metadata for interoperability](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/interoperability-metadata) | ISO 19115/19119 metadata record |
 
 ## Rules for HTTP requests
