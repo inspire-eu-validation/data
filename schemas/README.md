@@ -35,10 +35,10 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 | Identifier                                                        | Status   | Test case in [TG DS Template](#ref_TG-DS_tmpl) |
 | ----------------------------------------------------------------- | -------- | ------------ |
-| [Schema](http://inspire.ec.europa.eu/id/ats/data-encoding/3.3/schemas/schema)  | ready for review  | A.1.1 |
-| [Schema validation](http://inspire.ec.europa.eu/id/ats/data-encoding/3.3/schemas/schema-validation)  | ready for review  | A.1.1, A.1.2, A.1.3, A.1.4, A.1.5, A.3.2, (A.6.1), A.8.1, A.9.5  |
-| [GML model](http://inspire.ec.europa.eu/id/ats/data-encoding/3.3/schemas/gml-model)  | ready for review  | A.1.3, (A.6.1), A.9.5  |
-| [Simple features](http://inspire.ec.europa.eu/id/ats/data-encoding/3.3/schemas/simple-features)  | ready for review  | A.1.7  |
+| [Schema](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/schemas/schema)  | ready for review  | A.1.1 |
+| [Schema validation](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/schemas/schema-validation)  | ready for review  | A.1.1, A.1.2, A.1.3, A.1.4, A.1.5, A.3.2, (A.6.1), A.8.1, A.9.5  |
+| [GML model](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/schemas/gml-model)  | ready for review  | A.1.3, (A.6.1), A.9.5  |
+| [Simple features](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/schemas/simple-features)  | ready for review  | A.1.7  |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
