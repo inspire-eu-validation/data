@@ -1,4 +1,4 @@
-# Conformance class: Information accessibility, Hydrography (DRAFT)
+# Conformance class: Information accessibility (DRAFT)
 
 Conformance class for the requirements related to the accessibility of information stored in registries (code lists, coordinate reference systems).
 
@@ -34,7 +34,7 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 ## Test Cases
 
-| Identifier                                                        | Status   | Test case in [TG DS-HY](#ref_TG_DS_HY)  |
+| Identifier                                                        | Status   | Test case in [TG DS Template](#ref_TG-DS_tmpl)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
 | [Code lists](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/information-accessibility/code-list)  | ready for review  | A.6.1 |
 | [CRS](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/information-accessibility/crs)  | ready for review  | A.6.2 |
