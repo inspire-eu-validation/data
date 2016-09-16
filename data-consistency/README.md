@@ -34,7 +34,7 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 ## Test Cases
 
-| Identifier                                                        | Status   | Test case in [TG DS-HY](#ref_TG_DS_HY)  |
+| Identifier                                                        | Status   | Test case in [TG DS Template](#ref_TG-DS_tmpl)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
 | [Version consistency](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/data-consistency/versions)  | ready for review  | A.3.1, A.3.2, A.3.3 |
 | [Temporal consistency](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/data-consistency/temporal)  | ready for review  | A.3.4  |

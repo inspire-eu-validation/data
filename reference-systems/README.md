@@ -1,6 +1,6 @@
-# Conformance class: Reference systems, Hydrography - Network (DRAFT)
+# Conformance class: Reference systems (DRAFT)
 
-Conformance class for the requirements associated with reference systems (spatial and temporal, units of measurement).
+Conformance class for general requirements associated with reference systems (spatial and temporal, units of measurement).
 
 To be able to test this conformance class, the encoding of the data set must be known, i.e. this is a parameterized conformance class. The XPath expressions used in this test suite assume that the GML encoding is used. If used with the GML encoding this conformance class has an indirect dependency to the conformance class "INSPIRE GML application schemas".
 
@@ -22,7 +22,7 @@ An indirect dependency is another conformance class whose requirements must be m
 
 | Specification | Conformance class | Related resource | Parameters |
 | ------------- | ----------------- | ---------------- | ---------- |
-| [TG DS-HY](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/reference-systems/README#ref_TG_DS_HY) | [GML application schema, Hydrography - Network](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/schemas) | INSPIRE spatial data set encoded in GML | n/a |
+| [TG DS_tmpl](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/reference-systems/README#ref_TG_DS_tmpl) | [INSPIRE GML application schemas](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/schemas) | INSPIRE spatial data set encoded in GML | n/a |
  
 ## External document references
 
@@ -34,7 +34,7 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 ## Test Cases
 
-| Identifier                                                        | Status   | Test case in [TG DS-HY](#ref_TG_DS_HY)  |
+| Identifier                                                        | Status   | Test case in [TG DS Template](#ref_TG-DS_tmpl)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
 | [Spatial reference systems](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/reference-systems/spatial)  | ready for review  | A.2.1, A.2.2, A.6.2, A.6.3, A.9.1  |
 | [Temporal reference systems](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/reference-systems/temporal)  | ready for review  | A.2.5  |
