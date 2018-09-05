@@ -10,7 +10,7 @@ Verify that the encoding (i.e., the description of the computer language constru
 
 Inspect the data set metadata whether metadata describing the encoding has been created and published using the code property in [distributionFormat](#distributionFormat).
 
-Verify that the properties [name](#name), [version](#version) and [specification](#specification) are all provided.
+Verify that the properties [name](#name) and [version](#version) are all provided.
 
 **Reference(s)**
 
@@ -29,4 +29,3 @@ Abbreviation                                   |  XPath expression (relative to 
 distributionFormat <a name="distributionFormat"></a>   | gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat
 name <a name="name"></a>   | gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:name/gco:CharacterString
 version <a name="version"></a>   | gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:version/gco:CharacterString
-specification <a name="specification"></a>   | gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:specification/gco:CharacterString
