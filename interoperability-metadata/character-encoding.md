@@ -23,4 +23,4 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 Abbreviation                                   |  XPath expression (relative to gmd:MD_Metadata)
 -----------------------------------------------| -------------------------------------------------------------------------
 <a name="CharEnc"></a> Character Encoding | gmd:identificationInfo/gmd:MD_DataIdentification/gmd:characterSet/gmd:MD_CharacterSetCode/@codeListValue
-<a name="ValidCharEnc"></a> valid character encodings | doc(http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml)//gmx:ML_CodeListDictionary[@gml:id='MD_CharacterSetCode']//gml:identifier/text()
+<a name="ValidCharEnc"></a> valid character encodings | doc(https://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml)//gmx:ML_CodeListDictionary[@gml:id='MD_CharacterSetCode']//gml:identifier/text()
