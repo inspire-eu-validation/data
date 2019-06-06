@@ -8,8 +8,6 @@
 
 Inspect the data set metadata whether metadata describing the coordinate reference system(s) have been created and published using the code property in [RS_Identifier](#rs).
 
-Verify that the value is a http URI and includes one of the values from table 2 in [TG_DS_TMPL](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/interoperability-metadata/README#ref_TG_DS_TMPL).
-
 Example:
 
 ```
