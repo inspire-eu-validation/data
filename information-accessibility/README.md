@@ -36,7 +36,6 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 | Identifier                                                        | Status   | Test case in [TG DS Template](#ref_TG-DS_tmpl)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
-| [Code lists](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/information-accessibility/code-list)  | ready for review  | A.6.1 |
 | [CRS](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/information-accessibility/crs)  | ready for review  | A.6.2 |
 
 ## XML namespace prefixes <a name="namespaces"></a>
