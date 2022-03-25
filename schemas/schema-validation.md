@@ -1,14 +1,14 @@
-# Schema validation
+# Validation against declared schema
 
 **Version**: 1
 
-**Purpose**: Verify that all XML documents validate against their XML schema(s).
+**Purpose**: Verify that all XML documents validate against the XML schema(s) declared in the schemaLocation attribute.
 
 **Prerequisites**
 
 **Test method**
 
-* Verify for each XML document that the root element that a [schemaLocation](#) attribute is provided. Otherwise report [noSchemaLocation](#noSchemaLocation)
+* Verify for each XML document that the root element that a [schemaLocation](#schemaLocation) attribute is provided. Otherwise report [noSchemaLocation](#noSchemaLocation)
 * Validate each document against the schema(s) specified in the xsi:schemaLocation attribute using strict XML schema validation. Otherwise report [invalidSchema](#invalidSchema).
 
 **Reference(s)**: 
