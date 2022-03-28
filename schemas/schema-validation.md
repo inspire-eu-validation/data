@@ -8,7 +8,7 @@
 
 **Test method**
 
-* Verify for each XML document that the root element that a [schemaLocation](#schemaLocation) attribute is provided. Otherwise report [noSchemaLocation](#noSchemaLocation)
+* Verify for each XML document that in the root element a [schemaLocation](#schemaLocation) attribute is provided. Otherwise report [noSchemaLocation](#noSchemaLocation)
 * Validate each document against the schema(s) specified in the xsi:schemaLocation attribute using strict XML schema validation. Otherwise report [invalidSchema](#invalidSchema).
 
 **Reference(s)**: 
